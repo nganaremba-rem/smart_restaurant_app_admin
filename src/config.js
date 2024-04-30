@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const Axios = axios.create({
-	baseURL: "https://smart-restaurant-app-backend.vercel.app/",
+	baseURL: "https://smart-restaurant-app-backend.vercel.app/restaurant/api/v1/",
 });
 
 // const Config = {
